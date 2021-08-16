@@ -1,0 +1,59 @@
+{
+	"pages": [{
+		"path": "pages/tabBar/home/home",
+		"style": {
+			"navigationBarTitleText": "首页",
+			"app-plus": {
+				"titleNView": false,
+				"subNVues": [{
+					"id": "homeTitleNvue",
+					"path": "pages/tabBar/home/subNVue/homeTitle",
+					"type": "navigationBar"
+				}]
+			}
+		}
+	}, {
+		"path": "pages/tabBar/publish/publish",
+		"style": {
+			"navigationBarTitleText": "发布"
+		}
+
+	}, {
+		"path": "pages/tabBar/video/video",
+		"style": {
+			"navigationBarTitleText": "关注"
+		}
+
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "每日新闻",
+		"navigationBarBackgroundColor": "#d43d3d",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"color": "#8F8F94",
+		"selectedColor": "#f33e54",
+		"list": [{
+				"pagePath": "pages/tabBar/home/home",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/homeactive.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabBar/publish/publish",
+				"iconPath": "static/img/tabbar/add.png",
+				"selectedIconPath": "static/img/tabbar/addactive.png",
+				"text": "发布"
+			},
+			{
+				"pagePath": "pages/tabBar/video/video",
+				"iconPath": "static/img/tabbar/guanzhu.png",
+				"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+				"text": "关注"
+			}
+		]
+	}
+}
